@@ -1,0 +1,11 @@
+{
+    "capture": {
+        "scaledWidth": 2560,
+        "scaledHeight": 1440,
+        "fontWidth": 9,
+        "fontHeight": 20
+    },
+    "playback": {
+        "framerate": 6000
+    }
+}
