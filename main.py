@@ -1,4 +1,4 @@
-import tkinter as tk,subprocess,tempfile,threading
+import tkinter as tk,subprocess,tempfile,threading,os
 from tkinter import filedialog
 from tkinter import ttk
 from moviepy.editor import VideoFileClip
@@ -111,8 +111,7 @@ class home():
             asciiPath = selectAscii()
             if asciiPath:
                 command = f'py ./src/videoDecode.py "{asciiPath}"'
-                print(command)
-                subprocess.Popen(['cmd', '/c', 'start', 'cmd', '/k', command], shell=True)
+                os.system(f'cmd /c start cmd /k {command}')
 
 
 

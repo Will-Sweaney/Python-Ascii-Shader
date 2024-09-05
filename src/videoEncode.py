@@ -1,4 +1,4 @@
-import av,sys,json,numpy as np,h5py,math,os,torch,time
+import av,sys,json,numpy as np,h5py,os,torch,time
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
