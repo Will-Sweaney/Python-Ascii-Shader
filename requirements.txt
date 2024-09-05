@@ -3,3 +3,5 @@ numpy==1.25.2
 pyav==12.3.0
 pydub==0.25.1
 torch==2.3.1
+av==13.0.0
+moviepy=2.8.1
